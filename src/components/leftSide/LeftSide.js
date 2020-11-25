@@ -15,19 +15,10 @@ const LeftSide = () => (
           </h1>
         </div>
         <p className="text-center text-white ">
-          I'm a <u>Full Stack Web Developer</u> that is focused on MERN
-          stack(MongoDB, ExpressJS, ReactJS, NodeJS). Master Degree in Computer
-          Science and a student at STRIVE SCHOOL for +6 months.
+          I'm a <u>Full Stack Developer</u> focused on MERN stack(MongoDB,
+          ExpressJS, ReactJS, NodeJS). Master Degree in Computer Science and a
+          student at STRIVE SCHOOL for +6 months.
         </p>
-        {/* <SocialList margin />
-        <div className="row mb-5 justify-content-center">
-          <a
-            href="/"
-            className="d-block m-3 text-white o-btn text-center py-2 position-relative"
-          >
-            RESUME
-          </a>
-        </div> */}
       </div>
     </div>
   </>

@@ -9,7 +9,7 @@ class AboutSide extends React.Component {
     return (
       <>
         <InfoList />
-        <Services />
+        <Services className="mt-5" />
       </>
     );
   }

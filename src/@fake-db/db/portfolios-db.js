@@ -1,13 +1,30 @@
+import Image1 from "../../images/project1.png";
 export const portfolios = [
-  // {
-  //   id: 1,
-  //   title: "Mobile Application",
-  //   url: "http://google.com",
-  //   thumbnail:
-  //     "https://images.unsplash.com/photo-1558655146-6c222b05fce4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-  //   full:
-  //     "https://images.unsplash.com/photo-1544256718-3bcf237f3974?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80",
-  //   category: "ios & Android",
-  // },
-
+  {
+    id: 1,
+    title: "Tech Jobs",
+    url: "https://tech-jobsapp.herokuapp.com",
+    urlGitHub: "https://github.com/alekszone/frontend_solocapstone",
+    thumbnail: `${Image1}`,
+    full: `${Image1}`,
+    category: "Full Stack Project Build Using Mern Stack",
+  },
+  {
+    id: 2,
+    title: "Spotify",
+    url: "",
+    urlGitHub: "https://github.com/alekszone",
+    thumbnail: `https://cdn57.androidauthority.net/wp-content/uploads/2020/02/Spotify-genre-podcasts-1200x675.jpg`,
+    full: `https://cdn57.androidauthority.net/wp-content/uploads/2020/02/Spotify-genre-podcasts-1200x675.jpg`,
+    category: "Coming Soon",
+  },
+  {
+    id: 3,
+    title: "LinkedIn",
+    url: "",
+    urlGitHub: "https://github.com/alekszone",
+    thumbnail: `https://www.kinesisinc.com/wp-content/uploads/2020/04/linkedin-101-hero@2x.png`,
+    full: `https://www.kinesisinc.com/wp-content/uploads/2020/04/linkedin-101-hero@2x.png`,
+    category: "Coming Soon",
+  },
 ];

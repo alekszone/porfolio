@@ -17,10 +17,7 @@ class InfoList extends React.Component {
         infoTitle: "Full Name",
         infoValue: "Aleksander Gjoni",
       },
-      {
-        infoTitle: "Age",
-        infoValue: 25,
-      },
+
       {
         infoTitle: "Languages",
         infoValue: "English, Albanian",

@@ -7,9 +7,9 @@ import "./ResumeSide.scss";
 
 const ResumeSide = () => (
   <div className="ml-3 mr-3">
+    <Experiences />
     <Title>My Skills</Title>
     <Skills />
-    <Experiences />
   </div>
 );
 
