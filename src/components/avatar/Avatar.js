@@ -5,14 +5,14 @@ import "./Avatar.scss";
 const Avatar = (props) => (
   <>
     <div
-      className={`avatar__img rounded-circle mb-2 ${
-        props.margin ? "mt-5" : ""
+      className={`avatar__img rounded-circle mb-4 ${
+        props.margin ? "mt-2" : ""
       }`}
     >
       <img
         src={myimage}
-        alt="oftadeh"
-        title="oftadeh"
+        alt="aleksander"
+        title="aleksander"
         className="rounded-circle"
       />
     </div>

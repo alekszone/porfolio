@@ -1,6 +1,7 @@
 import React from "react";
 import Avatar from "../avatar/Avatar";
 import SocialList from "../social/SocialLists";
+import TypedText from "../TypeText/TypedText";
 import "./LeftSide.scss";
 
 const LeftSide = () => (
@@ -8,11 +9,13 @@ const LeftSide = () => (
     <div className="col-12 col-md-6 left-back d-flex align-items-center ">
       <div className="d-flex flex-column align-items-center  ">
         <Avatar margin />
-        <div className="d-flex justify-content-center flex-wrap align-items-baseline">
-          <p className="o-font-lg text-white mb-1 mb-sm-3">Hi, I am</p>
+        <div className="d-flex flex-column  justify-content-center ">
+          {/* <p className="o-font-lg text-white mb-1 mb-sm-3">Hi, I am</p> */}
           <h1 style={{ color: "white" }} className="o-font-lg ml-2 ">
             Aleksander Gjoni
           </h1>
+
+          <TypedText dataText={["Full Stack Developer"]} />
         </div>
         <p className="text-center text-white ">
           I'm a <u>Full Stack Developer</u> focused on MERN stack(MongoDB,
