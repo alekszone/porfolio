@@ -6,8 +6,8 @@ import "./LeftSide.scss";
 
 const LeftSide = () => (
   <>
-    <div className="col-12 col-md-6 left-back d-flex align-items-center ">
-      <div className="d-flex flex-column align-items-center  ">
+    <div className="col-12 col-md-6 left-back d-flex  justify-content-center ">
+      <div className="d-flex flex-column justify-content-center ">
         <Avatar margin />
         <div className="d-flex flex-column  justify-content-center ">
           {/* <p className="o-font-lg text-white mb-1 mb-sm-3">Hi, I am</p> */}
@@ -17,11 +17,11 @@ const LeftSide = () => (
 
           <TypedText dataText={["Full Stack Developer"]} />
         </div>
-        <p className="text-center text-white ">
+        {/* <p className="text-center text-white  mt-5">
           I'm a <u>Full Stack Developer</u> focused on MERN stack(MongoDB,
           ExpressJS, ReactJS, NodeJS). Master Degree in Computer Science and a
           student at STRIVE SCHOOL for +6 months.
-        </p>
+        </p> */}
       </div>
     </div>
   </>

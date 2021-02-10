@@ -17,6 +17,10 @@ class InfoList extends React.Component {
         infoTitle: "Full Name",
         infoValue: "Aleksander Gjoni",
       },
+      {
+        infoTitle: "Email",
+        infoValue: "aleksander_gjoni@outlook.com",
+      },
 
       {
         infoTitle: "Languages",

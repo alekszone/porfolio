@@ -1,13 +1,13 @@
 import React from "react";
 import Title from "../title/Title";
-import Style from './Services.scss'
+import Style from "./Services.scss";
 import "./Services.scss";
 
 class Services extends React.Component {
   render() {
     return (
       <div>
-        <h3 style={{ color: "#4A18F0" }}>About</h3>
+        <Title>About</Title>
         <p className={`${Style.text}`}>
           A Full-Stack JavaScript Developer that is focused on MERN
           stack(MongoDB, ExpressJS, ReactJS, NodeJS). Master Degree in Computer
